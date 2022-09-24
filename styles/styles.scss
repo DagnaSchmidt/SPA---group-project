@@ -4,8 +4,42 @@
     padding: 0;
     margin: 0;
 }
-a, button {
+a, button, input, textarea, select {
     all: unset;
 }
 
+//import CSS styles from other pages// 
+@import 'about.css';
+@import 'gallery.css';
+@import 'contact.css';
+
 //variables// 
+:root {
+
+    //colors// 
+    --main-color: #501C65;
+    --secondary-color: #CFACF9;
+    --accent-color: #FE477F;
+    --white-shade-color: #E9EFEF;
+
+    //fonts//
+    --main-font: 'Quicksand', sans-serif;
+    --ornate-font: 'Viaoda Libre', cursive; 
+
+    //font sizes// 
+    --s-x-small: 12px;
+    --s-small: 16px;
+    --s-regular: 22px;
+    --s-medium: 36px;
+    --s-large: 48px;
+
+    //font weights// 
+    --w-light: 300;
+    --w-regular: 400;
+    --w-medium: 500;
+    --w-semi-bold: 600;
+    --w-bold: 700;
+
+}
+
+//reusables// 
