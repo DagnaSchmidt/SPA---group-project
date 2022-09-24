@@ -8,11 +8,6 @@ a, button, input, textarea, select {
     all: unset;
 }
 
-//import CSS styles from other pages// 
-@import 'about.css';
-@import 'gallery.css';
-@import 'contact.css';
-
 //variables// 
 :root {
 
@@ -39,6 +34,12 @@ a, button, input, textarea, select {
     --w-medium: 500;
     --w-semi-bold: 600;
     --w-bold: 700;
+
+    //side margins// 
+    --large-screen-margin: 0 60px;
+    --laptop-margin: ;
+    --tablet-margin: ;
+    --mobile-margin: ;
 
 }
 

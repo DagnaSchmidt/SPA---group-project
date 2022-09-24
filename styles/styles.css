@@ -4,6 +4,29 @@
   margin: 0;
 }
 
-a, button {
+a, button, input, textarea, select {
   all: unset;
+}
+
+:root {
+  --main-color: #501C65;
+  --secondary-color: #CFACF9;
+  --accent-color: #FE477F;
+  --white-shade-color: #E9EFEF;
+  --main-font: "Quicksand", sans-serif;
+  --ornate-font: "Viaoda Libre", cursive;
+  --s-x-small: 12px;
+  --s-small: 16px;
+  --s-regular: 22px;
+  --s-medium: 36px;
+  --s-large: 48px;
+  --w-light: 300;
+  --w-regular: 400;
+  --w-medium: 500;
+  --w-semi-bold: 600;
+  --w-bold: 700;
+  --large-screen-margin: 0 60px;
+  --laptop-margin: ;
+  --tablet-margin: ;
+  --mobile-margin: ;
 }/*# sourceMappingURL=styles.css.map */
