@@ -89,7 +89,10 @@ body {
 }
 
 //reusables for landing page// 
-
+.section {
+    width: 100%;
+    //margin: var(--large-screen-margin);
+}
 
 //NAV// the same on every page // 
 .header {
@@ -149,16 +152,53 @@ body {
 }
 
 
-
+//LANDING PAGE// 
 .main {
-    display: none;
+    background-color: var(--white-shade-color);
+    padding-top: 84px;
+    &__page {
+        min-height: 635px;
+        background-image: url(../img/bg-white-flower.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        &__text-container {
+            margin: var(--large-screen-margin);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 471px;
+        }
+        &__title {
+            font-family: var(--ornate-font);
+            font-size: var(--s-large);
+            text-transform: uppercase;
+            color: var(--accent-color);
+            text-align: center;
+            line-height: 40px;
+            align-self: center;
+        }
+        &__description {
+            font-family: var(--main-font);
+            font-size: var(--s-small);
+            color: var(--main-color);
+            line-height: 20px;
+            text-align: left;
+            padding: 48px 0;
+        }
+        &__btn {
+            align-self: center;
+        }
+    }
 }
 
 //FOOTER// the same on every page // 
 .footer {
     width: 100%;
     height: 120px;
-    position: absolute;
+    //position: absolute;
     bottom: 0;
     left: 0;
     background-color: var(--main-color);
