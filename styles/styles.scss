@@ -7,6 +7,13 @@
 a, button, input, textarea, select {
     all: unset;
 }
+ul, li {
+    list-style-type: none;
+}
+body {
+    overflow-x: hidden;  //hide width scroll
+}
+
 
 //variables// 
 :root {
@@ -74,6 +81,59 @@ a, button, input, textarea, select {
 
 //reusables for landing page// 
 
-//NAV// 
 
-//FOOTER// 
+//NAV// the same on every page // 
+.header {
+    width: 100%;
+    height: 84px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__nav {
+        margin: var(--large-screen-margin);
+        height: 84px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        &__links {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 123px;
+        }
+        &__menu-icon {
+            width: 75px;
+            padding-left: 24px;
+            i {
+                color: var(--white-shade-color);
+                font-size: var(--s-large);
+                text-align: center;
+            }
+        }
+        &__link {
+            width: 75px;
+            display: flex;
+            justify-content: center;
+            font-family: var(--main-font);
+            color: var(--white-shade-color);
+            font-size: var(--s-small);
+            font-weight: var(--w-regular);
+            a {
+                &:active {
+                    font-weight: var(--w-bold);
+                }
+                &:hover {
+                    
+                }
+            }
+        }
+    }
+    
+}
+
+//FOOTER// the same on every page // 
