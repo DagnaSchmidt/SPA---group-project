@@ -88,12 +88,6 @@ body {
     }
 }
 
-//reusables for landing page// 
-.section {
-    width: 100%;
-    //margin: var(--large-screen-margin);
-}
-
 //NAV// the same on every page // 
 .header {
     width: 100%;
@@ -105,6 +99,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 3;
     &__nav {
         margin: var(--large-screen-margin);
         height: 84px;
@@ -157,6 +152,7 @@ body {
     background-color: var(--white-shade-color);
     padding-top: 84px;
     &__page {
+        width: 100%;
         min-height: 635px;
         background-image: url(../img/bg-white-flower.jpg);
         background-repeat: no-repeat;
@@ -190,6 +186,48 @@ body {
         }
         &__btn {
             align-self: center;
+        }
+    }
+    //GALLERY// 
+    &__gallery {
+        width: 100%;
+        min-height: 396px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &__container {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin: var(--large-screen-margin);
+            padding: 0 18px;
+            justify-self: center;
+        }
+        &__item, &__img, &__title {
+            width: 235px;
+            height: 156px;
+        }
+        &__item {
+            position: relative;
+        }
+        &__img {
+
+        }
+        &__title {
+            position: absolute;
+            top: 0;
+            left: 0;
+            text-align: center;
+            line-height: 156px;
+            font-family: var(--main-font);
+            font-weight: var(--w-bold);
+            background-color: rgba(80, 28, 101, .9);
+            color: var(--white-shade-color);
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+            &:hover {
+                opacity: 1;
+            }
         }
     }
 }

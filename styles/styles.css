@@ -64,10 +64,6 @@ body {
   text-decoration: underline;
   color: var(--accent-color);
 }
-.section {
-  width: 100%;
-}
-
 .header {
   width: 100%;
   height: 84px;
@@ -78,6 +74,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 3;
 }
 .header__nav {
   margin: var(--large-screen-margin);
@@ -119,6 +116,7 @@ body {
   padding-top: 84px;
 }
 .main__page {
+  width: 100%;
   min-height: 635px;
   background-image: url(../img/bg-white-flower.jpg);
   background-repeat: no-repeat;
@@ -153,6 +151,44 @@ body {
 }
 .main__page__btn {
   align-self: center;
+}
+.main__gallery {
+  width: 100%;
+  min-height: 396px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main__gallery__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: var(--large-screen-margin);
+  padding: 0 18px;
+  justify-self: center;
+}
+.main__gallery__item, .main__gallery__img, .main__gallery__title {
+  width: 235px;
+  height: 156px;
+}
+.main__gallery__item {
+  position: relative;
+}
+.main__gallery__title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  line-height: 156px;
+  font-family: var(--main-font);
+  font-weight: var(--w-bold);
+  background-color: rgba(80, 28, 101, 0.9);
+  color: var(--white-shade-color);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.main__gallery__title:hover {
+  opacity: 1;
 }
 
 .footer {
