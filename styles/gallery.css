@@ -113,6 +113,27 @@ body {
 .header__nav__link a:active {
   font-weight: var(--w-bold);
 }
+
+.gallery {
+  .main {
+    background-color: var(--white-shade-color);
+    padding-top: 84px;
+}
+
+.gallery_title {
+  text-align: center;
+  font-family: var(--ornate-font);
+  font-family: var(--ornate-font);
+  font-size: var(--s-large);
+  text-transform: uppercase;
+  color: var(--accent-color);
+  text-align: center;
+  line-height: 40px;
+  align-self: center;
+
+}
+
+
 .footer {
   width: 100%;
   height: 120px;
