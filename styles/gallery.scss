@@ -149,22 +149,54 @@ body {
     
 }
 
-&__title {
-    position: absolute;
-    top: 0;
-    left: 0;
-    text-align: center;
-    line-height: 156px;
-    font-family: var(--main-font);
-    font-weight: var(--w-bold);
-    background-color: rgba(80, 28, 101, .9);
-    color: var(--white-shade-color);
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-    &:hover {
-        opacity: 1;
-    }
+//GALLERY PAGE// 
+.gallery {
+    background-color: var(--white-shade-color);
+    padding-top: 84px;
 }
+
+ //GALLERY// 
+ &__gallery {
+    width: 100%;
+    min-height: 396px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: var(--large-screen-margin);
+        padding: 0 18px;
+        justify-self: center;
+    }
+    &__item, &__img, &__title {
+        width: 235px;
+        height: 156px;
+    }
+    &__item {
+        position: relative;
+    }
+    &__img {
+
+    }
+
+    &__title {
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: center;
+        line-height: 156px;
+        font-family: var(--main-font);
+        font-weight: var(--w-bold);
+        background-color: rgba(80, 28, 101, .9);
+        color: var(--white-shade-color);
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+        &:hover {
+            opacity: 1;
+        }
+    }
 
 //FOOTER// the same on every page // 
 .footer {
