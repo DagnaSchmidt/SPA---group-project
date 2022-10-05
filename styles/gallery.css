@@ -102,28 +102,26 @@ body {
   text-align: center;
   font-family: var(--ornate-font);
   font-family: var(--ornate-font);
-  font-size: var(--s-regular);
+  font-size: var(--s-medium);
   text-transform: uppercase;
   color: var(--accent-color);
   text-align: center;
   line-height: 0.5px;
-  margin-top: 40px;
-  margin-bottom: 30px;
+  margin-top: 80px;
+  margin-bottom: 40px;
 }
 
-.gallery_info {
+.gallery_info {  
   font-family: var(--main-font);
   font-size: var(--s-small);
   color: var(--main-color);
-  width: 600px;
-  padding: 10px;
   text-align: center;
- 
-}
+  text-shadow: 5px #501C65;
+  
+  }
 
 .gallery_container {
-  width: 100%;
-  
+  width: 100%;  
   display: flex;
   justify-content: space-between;
   justify-self: center;
