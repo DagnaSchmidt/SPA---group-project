@@ -97,8 +97,10 @@ body {
 
 .gallery_page_container {
   width: 100%;
+  max-width: fit-content;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  justify-self: center;
   margin: var(--s-medium);
   padding: 20px;
   
@@ -161,6 +163,7 @@ body {
 .gallery_img {
   width: 235px;
   height: 156px;
+  
 }
 
 .gallery_page_button {
