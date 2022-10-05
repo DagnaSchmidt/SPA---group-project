@@ -3,6 +3,7 @@
 @use "footer";
 @use "body";
 @use "texts" as text;
+@use "fonts" as *;
 
 main {
   height: 500px;
@@ -20,64 +21,85 @@ main {
   }
 
   &__information {
-    width: 766px;
+    width: 962px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 20px;
+    p {
+      font-family: $page-header-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0.02em;
+    }
   }
 
   &__form {
-    width: 766px;
+    width: 962px;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 36px;
-  }
+    flex-direction: row;
+    justify-content: space-between;
 
-  .contact-form {
-    &__field {
-      label {
-        @include text.label;
-        height: 36px;
-      }
-      width: 100%;
+    .contact-form {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      gap: 10px;
-
-      &--text-input,
-      &--email-input {
-        width: 766px;
-        height: 42px;
-        background: #d9d9d9;
-        border-radius: 12px;
-        box-sizing: border-box;
-        padding: 0 10px;
+      width: 469px;
+      gap: 30px;
+      &__field {
+        label {
+          @include text.label;
+          height: 36px;
+        }
+        width: 100%;
         display: flex;
-        align-items: center;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+
+        &--text-input,
+        &--email-input {
+          height: 42px;
+          width: 100%;
+          background: #d9d9d9;
+          border-radius: 12px;
+          box-sizing: border-box;
+          padding: 0 10px;
+          display: flex;
+          align-items: center;
+        }
+
+        &--text-area {
+          height: 168px;
+          width: 100%;
+          background: #d9d9d9;
+          border-radius: 12px;
+          box-sizing: border-box;
+          padding: 10px 10px;
+          display: flex;
+          align-items: center;
+        }
       }
-
-      &--text-area {
-        width: 766px;
-        height: 168px;
-        background: #d9d9d9;
-        border-radius: 12px;
+      &__submit-button {
+        height: 56px;
+        width: 104px;
         box-sizing: border-box;
-        padding: 10px 10px;
         display: flex;
         align-items: center;
+        justify-content: center;
+        align-self: center;
       }
     }
 
-    &__submit-button {
-      height: 56px;
-      width: 104px;
-      box-sizing: border-box;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      align-self: center;
+    .contact-form-map {
+      width: 370px;
+      height: 540px;
+      margin-top: 36px;
+
+      background: #d9d9d9;
+      border-radius: 12px;
     }
   }
 }
