@@ -112,16 +112,18 @@ body {
 }
 
 .gallery_info {
-  text-align: center;
   font-family: var(--main-font);
   font-size: var(--s-small);
-
-
+  color: var(--main-color);
+  width: 600px;
+  padding: 10px;
+  text-align: center;
+ 
 }
 
 .gallery_container {
   width: 100%;
-  max-width: fit-content;
+  
   display: flex;
   justify-content: space-between;
   justify-self: center;
