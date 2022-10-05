@@ -119,9 +119,7 @@ body {
 
 }
 
-
-
-.gallery_page_container {
+.gallery_container {
   width: 100%;
   max-width: fit-content;
   display: flex;
@@ -130,6 +128,13 @@ body {
   margin: var(--s-medium);
   padding: 40px;
   
+}
+
+.gallery_page {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .gallery_page_title {
@@ -158,12 +163,7 @@ body {
       
 }
 
-.gallery_page {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 
 .gallery_page_item {
   text-align: center;
