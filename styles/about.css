@@ -120,26 +120,23 @@ body {
   min-height: 900px;
   margin: 20px;
   margin-top: 100px;
-  border: 5px solid black;
   overflow: hidden;
 }
 
 .about-us-image {
   max-width: 90%;
   height: auto;
-  border: 5px solid black;
+  border: 5px solid #501C65;
 }
 
 .about-us-content {
   min-width: 50%;
   display: flex;
   flex-direction: column;
-  border: 5px solid black;
   justify-content: space-evenly;
   margin-right: 40px;
-
 }
-
+/*
 .about-us {
 
 }
@@ -147,7 +144,7 @@ body {
 .find-us {
 
 }
-
+*/
 .about {
   font-family: "Quicksand", sans-serif;
 }
