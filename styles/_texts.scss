@@ -1,0 +1,21 @@
+@use "color" as *;
+@use "fonts" as *;
+
+@mixin label {
+  font-family: $page-label-font;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 0.02em;
+  color: $rose;
+  display: flex;
+  align-items: center;
+}
+
+@mixin mainHeader {
+  font-family: $page-header-font;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  color: $rose;
+}

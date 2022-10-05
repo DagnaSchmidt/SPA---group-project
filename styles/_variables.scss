@@ -1,0 +1,36 @@
+:root {
+  //colors//
+  --main-color: #501c65;
+  --secondary-color: #cfacf9;
+  --accent-color: #fe477f;
+  --white-shade-color: #e9efef;
+
+  --input-bg-color: #d9d9d9;
+
+  //fonts//
+  --main-font: "Quicksand", sans-serif;
+  --ornate-font: "Viaoda Libre", cursive;
+
+  //font sizes//
+  --s-x-small: 12px;
+  --s-small: 16px;
+  --s-regular: 22px;
+  --s-medium: 36px;
+  --s-large: 48px;
+
+  //font weights//
+  --w-light: 300;
+  --w-regular: 400;
+  --w-medium: 500;
+  --w-semi-bold: 600;
+  --w-bold: 700;
+
+  //side margins//
+  --large-screen-margin: 0 60px;
+  --laptop-margin: ;
+  --tablet-margin: ;
+  --mobile-margin: ;
+
+  //box shadows//
+  --btn-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
