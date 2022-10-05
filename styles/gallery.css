@@ -95,17 +95,6 @@ body {
     padding-top: 84px;
 }
 
-.gallery_page_container {
-  width: 100%;
-  max-width: fit-content;
-  display: flex;
-  justify-content: space-between;
-  justify-self: center;
-  margin: var(--s-medium);
-  padding: 20px;
-  
-}
-
 .gallery_title {
   text-align: center;
   font-family: var(--ornate-font);
@@ -127,6 +116,17 @@ body {
   line-height: 20px;
   text-align: center;
       
+}
+
+.gallery_page_container {
+  width: 100%;
+  max-width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  justify-self: center;
+  margin: var(--s-medium);
+  padding: 40px;
+  
 }
 
 .gallery_page_title {
