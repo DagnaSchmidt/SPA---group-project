@@ -158,6 +158,11 @@ body {
  
 }
 
+.gallery_img {
+  width: 235px;
+  height: 156px;
+}
+
 .gallery_page_button {
   font-family: var(--main-font);
   font-size: var(--s-small);
