@@ -135,21 +135,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  
 }
 
 .gallery_page_title {
 
-  text-align: center;
   font-family: var(--ornate-font);
   font-family: var(--ornate-font);
   font-size: var(--s-small);
+  justify-content: space-between;
   text-transform: uppercase;
   color: var(--accent-color);
-  text-align: center;
-  align-self: center;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 20px;
-
 
 }
 
