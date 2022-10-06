@@ -124,16 +124,14 @@ body {
 .gallery_container {
   width: 100%;  
   display: flex;
-  justify-content: space-between;
-  justify-self: center;
+  justify-content: space-between;  
   margin: var(--s-medium);
   padding: 20px;
   border-style: solid;
   border-width: thin;
   border-radius: 10px;
   border-color:#CFACF9;
-  colo
-  
+    
 }
 
 .gallery_page_item {
@@ -153,7 +151,7 @@ body {
   text-transform: uppercase;
   color: var(--accent-color);
   margin-top: 20px;
-  margin-bottom: 20px;
+  
 
 }
 
@@ -176,9 +174,10 @@ body {
 .gallery_page_button {
   font-family: var(--main-font);
   font-size: var(--s-small);
-  font-weight: var(--w-bold);
+  font-weight: var(--w-bold);  
   text-align: center;
   padding: 18px 32px;
+  
   
 }
 
