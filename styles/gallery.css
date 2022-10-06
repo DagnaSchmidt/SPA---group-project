@@ -126,16 +126,7 @@ body {
   justify-content: space-between;
   justify-self: center;
   margin: var(--s-medium);
-  padding: 40px;
-  
-}
-
-.gallery_page {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  padding: 30px;
   
 }
 
@@ -152,17 +143,15 @@ body {
 
 }
 
-.gallery_page_info {
+gallery_page_info {
   font-family: var(--main-font);
   font-size: var(--s-small);
   color: var(--main-color);
   line-height: 20px;
   text-align: center;
   align-self: center;
-      
+        
 }
-
-
 
 .gallery_page_item {
   text-align: center;
@@ -173,10 +162,12 @@ body {
 }
 
 .paragraph {
+  width: 250px;
   font-family: var(--main-font);
   font-size: var(--s-small);
   text-align: center;
   color: var(--main-color);
+  
    
 }
 
