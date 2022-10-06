@@ -127,14 +127,20 @@ body {
   justify-content: space-between;
   justify-self: center;
   margin: var(--s-medium);
-  padding: 30px;
+  padding: 20px;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 10px;
+  border-color:#CFACF9;
+  colo
   
 }
 
 .gallery_page_item {
   text-align: center;
- 
-  
+  display:inline;
+  justify-content: center;
+   
 
 }
 
