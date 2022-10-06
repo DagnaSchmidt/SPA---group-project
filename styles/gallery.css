@@ -42,30 +42,6 @@ body {
   --btn-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.btn {
-  font-family: var(--main-font);
-  font-size: var(--s-regular);
-  font-weight: var(--w-bold);
-  padding: 18px 32px;
-}
-.btn__primary {
-  background-color: transparent;
-  border: 4px solid var(--accent-color);
-  color: var(--accent-color);
-  border-radius: 220px;
-  box-shadow: var(--btn-box-shadow);
-}
-.btn__secondary {
-  background-color: var(--accent-color);
-  border-radius: 220px;
-  color: var(--white-shade-color);
-  box-shadow: var(--btn-box-shadow);
-}
-.btn__teritiary {
-  background-color: transparent;
-  text-decoration: underline;
-  color: var(--accent-color);
-}
 .header {
   width: 100%;
   height: 84px;
@@ -113,6 +89,99 @@ body {
 .header__nav__link a:active {
   font-weight: var(--w-bold);
 }
+
+.gallery { 
+    background-color: var(--white-shade-color);
+    widows: 100%;
+    padding-top: 84px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.gallery_title {
+  text-align: center;
+  font-family: var(--ornate-font);
+  font-family: var(--ornate-font);
+  font-size: var(--s-medium);
+  text-transform: uppercase;
+  color: var(--accent-color);
+  text-align: center;
+  line-height: 0.5px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.gallery_info {  
+  font-family: var(--main-font);
+  font-size: var(--s-small);
+  color: var(--main-color);
+  text-align: center;
+  text-shadow: 5px #501C65;
+  
+  }
+
+.gallery_container {
+  width: 100%;  
+  display: flex;
+  justify-content: space-between;  
+  margin: var(--s-medium);
+  padding: 20px;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 10px;
+  border-color:#CFACF9;
+    
+}
+
+.gallery_page_item {
+  text-align: center;
+  display:inline;
+  justify-content: center;
+   
+
+}
+
+.gallery_page_title {
+
+  font-family: var(--ornate-font);
+  font-family: var(--ornate-font);
+  font-size: var(--s-small);
+  justify-content: space-between;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  margin-top: 20px;
+  
+
+}
+
+.paragraph {
+  width: 250px;
+  font-family: var(--main-font);
+  font-size: var(--s-small);
+  text-align: center;
+  color: var(--main-color);
+
+}
+  
+.gallery_img {
+  width: 250px;
+  height: 158x;
+  padding: 30px;
+    
+}
+
+.gallery_page_button {
+  font-family: var(--main-font);
+  font-size: var(--s-small);
+  font-weight: var(--w-bold);  
+  text-align: center;
+  padding: 18px 32px;
+  
+  
+}
+
+
 .footer {
   width: 100%;
   height: 120px;
