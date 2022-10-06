@@ -131,6 +131,14 @@ body {
   
 }
 
+.gallery_page_item {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  
+
+}
+
 .gallery_page_title {
 
   font-family: var(--ornate-font);
@@ -144,25 +152,15 @@ body {
 
 }
 
-.gallery_page_item {
-  text-align: center;
-  align-self: center;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  
-
-}
-
 .paragraph {
   width: 250px;
   font-family: var(--main-font);
   font-size: var(--s-small);
   text-align: center;
   color: var(--main-color);
-  
-   
-}
 
+}
+  
 .gallery_img {
   width: 250px;
   height: 158x;
