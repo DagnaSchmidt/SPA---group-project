@@ -91,8 +91,9 @@ body {
 }
 
 .gallery { 
+    
     background-color: var(--white-shade-color);
-    widows: 100%;
+    width: 100%;
     padding-top: 84px;
     padding-left: 50px;
     padding-right: 50px;
@@ -124,22 +125,18 @@ body {
 .gallery_container {
   width: 100%;  
   display: flex;
+  flex-direction: row;
   justify-content: space-between;  
   margin: var(--s-medium);
   padding: 20px;
-  border-style: solid;
-  border-width: thin;
-  border-radius: 10px;
-  border-color:#CFACF9;
-    
+     
 }
 
 .gallery_page_item {
   text-align: center;
-  display:inline;
-  justify-content: center;
-   
-
+  display:inline;  
+  align-self: center;
+  
 }
 
 .gallery_page_title {
@@ -165,6 +162,7 @@ body {
 }
   
 .gallery_img {
+  width: 100%;
   width: 250px;
   height: 158x;
   padding: 30px;
