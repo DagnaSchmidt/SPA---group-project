@@ -91,8 +91,9 @@ body {
 }
 
 .gallery { 
+    
     background-color: var(--white-shade-color);
-    widows: 100%;
+    width: 100%;
     padding-top: 84px;
     padding-left: 50px;
     padding-right: 50px;
@@ -101,62 +102,52 @@ body {
 
 .gallery_title {
   text-align: center;
-  font-family: var(--ornate-font);
-  font-family: var(--ornate-font);
-  font-size: var(--s-medium);
-  text-transform: uppercase;
+  font-family: var(--main-font);
+  font-size: var(--s-medium); 
   color: var(--accent-color);
   text-align: center;
   line-height: 0.5px;
   margin-top: 80px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .gallery_info {  
   font-family: var(--main-font);
   font-size: var(--s-small);
   color: var(--main-color);
+  line-height: 20px;
   text-align: center;
-  text-shadow: 5px #501C65;
+  padding:30px 0;
   
   }
 
 .gallery_container {
-  width: 100%;  
+  width: 100%;
   display: flex;
-  justify-content: space-between;  
-  margin: var(--s-medium);
-  padding: 20px;
-  border-style: solid;
-  border-width: thin;
-  border-radius: 10px;
-  border-color:#CFACF9;
-    
+  justify-content: space-between;
+  margin: var(--medium-screen-margin);
+  padding: 0 18px;
+  justify-self: center;
 }
 
 .gallery_page_item {
-  text-align: center;
-  display:inline;
-  justify-content: center;
-   
-
+  text-align: center;    
+    
 }
 
 .gallery_page_title {
-
-  font-family: var(--ornate-font);
-  font-family: var(--ornate-font);
+  font-family: var(--main-font);
   font-size: var(--s-small);
   justify-content: space-between;
   text-transform: uppercase;
   color: var(--accent-color);
-  margin-top: 20px;
-  
+  margin-top: 20px;  
 
 }
 
 .paragraph {
-  width: 250px;
+  width: 100%;
+  max-width:300px;
   font-family: var(--main-font);
   font-size: var(--s-small);
   text-align: center;
@@ -164,22 +155,23 @@ body {
 
 }
   
-.gallery_img {
-  width: 250px;
-  height: 158x;
+.gallery_img {  
+  width: 100%;
+  max-width: 300px;
   padding: 30px;
     
 }
 
 .gallery_page_button {
+  width: 100%;
   font-family: var(--main-font);
   font-size: var(--s-small);
   font-weight: var(--w-bold);  
   text-align: center;
   padding: 18px 32px;
-  
-  
+  justify-self: center;
 }
+
 
 
 .footer {
