@@ -170,7 +170,7 @@ body {
   font-weight: var(--w-bold);  
   text-align: center;
   padding: 18px 32px;
-
+  justify-self: center;
 }
 
 
