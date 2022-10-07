@@ -164,6 +164,7 @@ body {
 }
 
 .gallery_page_button {
+  width: 100%;
   font-family: var(--main-font);
   font-size: var(--s-small);
   font-weight: var(--w-bold);  
