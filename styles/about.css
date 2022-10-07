@@ -55,16 +55,10 @@ body {
   border-radius: 220px;
   box-shadow: var(--btn-box-shadow);
 }
-.btn__secondary {
+.btn__primary:hover {
   background-color: var(--accent-color);
-  border-radius: 220px;
   color: var(--white-shade-color);
-  box-shadow: var(--btn-box-shadow);
-}
-.btn__teritiary {
-  background-color: transparent;
-  text-decoration: underline;
-  color: var(--accent-color);
+  cursor: pointer;
 }
 .header {
   width: 100%;
@@ -112,6 +106,12 @@ body {
 }
 .header__nav__link a:active {
   font-weight: var(--w-bold);
+}
+.header__nav__link a:hover {
+  font-weight: var(--w-bold);
+  transform: scale(1.1);
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .us-section {
@@ -193,4 +193,9 @@ body {
 }
 .footer__icon {
   padding: 0 20px;
-}/*# sourceMappingURL=about.css.map */
+}
+.footer__icon:hover {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+/*# sourceMappingURL=about.css.map */
