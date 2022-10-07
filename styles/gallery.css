@@ -102,9 +102,8 @@ body {
 
 .gallery_title {
   text-align: center;
-  font-family: var(--ornate-font);
-  font-size: var(--s-medium);
-  text-transform: uppercase;
+  font-family: var(--main-font);
+  font-size: var(--s-medium); 
   color: var(--accent-color);
   text-align: center;
   line-height: 0.5px;
