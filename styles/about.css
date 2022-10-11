@@ -153,11 +153,15 @@ main {
 }
 
 .title {
-  color: #FE477F;
+  color: var(--accent-color);
 }
 
 .content {
-  color: #501C65;
+  color: var(--main-color);
+}
+
+.etiquette {
+  color: var(--main-color);
 }
 
 .footer {
