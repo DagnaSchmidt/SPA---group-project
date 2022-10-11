@@ -65,21 +65,23 @@
                 <form class="contact-form">
                     <div class="contact-form__field">
                         <label for="name">Name :</label>
-                        <input name="name" id="name" type="text" class="contact-form__field--text-input" value="" />
+                        <input required name="name" id="name" type="text" class="contact-form__field--text-input"
+                            value="" />
                     </div>
                     <div class="contact-form__field">
                         <label for="email">Email :</label>
-                        <input name="email" id="email" type="email" class="contact-form__field--text-input" value="" />
+                        <input required name="email" id="email" type="email" class="contact-form__field--text-input"
+                            value="" />
                     </div>
                     <div class="contact-form__field">
                         <label for="subject">Subject :</label>
-                        <input name="subject" id="subject" type="text" class="contact-form__field--text-input"
+                        <input required name="subject" id="subject" type="text" class="contact-form__field--text-input"
                             value="" />
                     </div>
                     <div class="contact-form__field">
                         <label for="message">Message :</label>
-                        <textarea id="message" name="message" cols="40" rows="5" class="contact-form__field--text-area"
-                            value=""></textarea>
+                        <textarea required id="message" name="message" cols="40" rows="5"
+                            class="contact-form__field--text-area" value=""></textarea>
 
                     </div>
                     <button class="contact-form-btn btn btn__primary">Submit</button>
