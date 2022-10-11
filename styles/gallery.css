@@ -44,9 +44,9 @@ body {
 
 .btn {
   font-family: var(--main-font);
-  font-size: var(--s-regular);
+  font-size: var(--s-small);
   font-weight: var(--w-bold);
-  padding: 14px 26px;
+  padding: 10px 22px;
 }
 .btn__primary {
   background-color: transparent;
